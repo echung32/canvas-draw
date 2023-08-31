@@ -1,0 +1,44 @@
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+button {
+    background-color: #80d8ff;
+    border: 1px solid #80d8ff;
+    padding: 8px 16px;
+    margin-bottom: 7px;
+    font-size: 12px;
+    font-weight: bold;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    background-color: #BBDEFB;
+    border: 1px solid #80d8ff;
+}
+
+#clrButton {
+    background-color: #f50057;
+    border: 1px solid #f50057;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#clrButton:hover {
+    background-color: #F48FB1;
+    border: 1px solid #f50057;
+}
+
+input[type=number] {
+    width: 100px;
+    border: none;
+    border-bottom: 2px solid #1565C0;
+}

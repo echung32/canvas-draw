@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CanvasDraw</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    <body>
+        <canvas id="canvas" width="600" height="600" style="border: 5px solid black"></canvas>
+        </br>
+        <input id="inputObjX" type="number" placeholder="X-Value" min="0" max="600">
+        <input id="inputObjY" type="number" placeholder="Y-Value" min="0" max="600">
+        <input id="inputObjH" type="number" placeholder="Height" min="1" max="600">
+        <input id="inputObjW" type="number" placeholder="Width" min="1" max="600">
+        <button type="button" onclick="drawObject()">Draw Object</button>
+        </br>
+        <input id="inputCObjX" type="number" placeholder="X-Value" min="0" max="600">
+        <input id="inputCObjY" type="number" placeholder="Y-Value" min="0" max="600">
+        <input id="inputCObjR" type="number" placeholder="Radius" min="1" max="600">
+        <input id="inputCObjSA" type="number" placeholder="Start Angle" min="1" max="360">
+        <input id="inputCObjEA" type="number" placeholder="End Angle" min="1" max="360">
+        <input id="inputCObjCC" type="checkbox">
+        <label for="inputCObjCC">Counter Clockwise</label>
+        <button type="button" onclick="drawCircleObject()">Draw Circular Object</button>
+        </br>
+        <input id="inputLObjX" type="number" placeholder="X-Value" min="0" max="600">
+        <input id="inputLObjY" type="number" placeholder="Y-Value" min="0" max="600">
+        <input id="inputLObjM1X" type="number" placeholder="XMove1-Value" min="0" max="600">
+        <input id="inputLObjM1Y" type="number" placeholder="YMove1-Value" min="0" max="600">
+        <input id="inputLObjM2X" type="number" placeholder="XMove2-Value" min="0" max="600">
+        <input id="inputLObjM2Y" type="number" placeholder="YMove2-Value" min="0" max="600">
+        <button type="button" onclick="drawLineObject()">Draw Line Object</button>
+        </br>
+        <button id="clrButton" type="button" onclick="clearCanvas()">Clear Canvas</button>
+        <p id="functionOutput"></p>
+        <script src="js/index.js"></script>
+    </body>
+</html>
